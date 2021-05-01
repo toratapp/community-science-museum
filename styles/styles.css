@@ -7,6 +7,12 @@ body {
     color: #fff;
     margin: 0;
     background-color: #000;
+    position: relative;
+    background: url("../images/background.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
 h1,
@@ -16,3 +22,66 @@ nav {
   font-family: "Catamaran", "Trebuchet MS", sans-serif;
   font-weight: 700;
 }
+
+img {
+    width: 100%;
+}
+
+header {
+    border-bottom: #dddddd 2px solid;
+}
+
+#close,
+#close:checked ~ nav {
+  display: none;
+}
+
+.nav__close-icon {
+    position: fixed;
+    right: 20px;
+    top: 130px;
+    font-size: 2em;
+}
+
+ul {
+    margin: 20px 30px;
+    padding: 0;
+}
+
+nav {
+    display: none;
+    position: fixed;
+    top: 110px;
+    background-color: #444444;
+    z-index: 1000;
+    width: 100%;
+    font-size: 1.3em;
+  }
+  
+  nav li {
+    padding: 5px 0px;
+    display: block;
+  }
+
+  .hamburger-icon {
+    font-size: 2em;
+  }
+  
+  #hamburger-menu {
+    display: none;
+  }
+  
+  #hamburger-menu:checked ~ nav {
+    display: block;
+  }
+
+  footer {
+      border-top: 2px solid #dddddd;
+  }
+
+  .copyright {
+      font-size: 0.7em;
+      font-style: italic;
+      color: #dddddd;
+      text-align: center;
+  }

@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text-link {
+    color: #25a7bb;
+    font-style: italic;
+    border-bottom: 2px solid #25a7bb;
+}

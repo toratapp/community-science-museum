@@ -14,10 +14,15 @@
   </head>
   <body>
     <header>
-      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <div>
+        <a href="index.html" class="logo"><img src="images/logo-white.svg" alt="Community Science Museum logo" /></a>
+      </div>
+      <label for="hamburger-menu"><i class="fas fa-bars hamburger-icon"></i></label>
       <input type="checkbox" id="hamburger-menu" />
       <nav>
-        <ul id="nav__links">
+        <label for="close"><i class="fas fa-times nav__close-icon"></i></label>
+        <input type="checkbox" id="close" />
+        <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="explore.html">Explore</a></li>
           <li><a href="#">Exhibitions</a></li>
@@ -30,10 +35,40 @@
       </nav>
     </header>
     <main>
-
+      <section class="explore-section">
+        <div>
+          <img src="images/vr-person.jpg" alt="Young person wearing VR glasses. The image has a red color filter.">
+        </div>
+        <h1>Explore together!</h1>
+        <a href="explore.html" class="cta">SEE MORE&nbsp;&nbsp;&#62;</a>
+        <p>Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.</p>
+      </section>
+      <section class="exhibitions-section">
+        <h2>Exhibitions</h2>
+        <div>
+          <img src="images/astronaut.jpg" alt="Astronaut in a yellow space suit and white helmet sitting and looking at a glass wall with scientific vinyl on it.">
+        </div>
+        <h3>Cosmology</h3>
+        <p>Explore the wonders of our cosmos. Our fantastic exhibition, ‘The Sky Above Us’, explores the night sky and the universe.&nbsp;&nbsp;<span class="text-link">Learn more &#62;</span></p>
+        <div>
+          <img src="images/hall-with-mammoth.jpg" alt="Museum hall with a wooly mammoth on a podium.">
+        </div>
+        <h3>Evolution</h3>
+        <p>Where do we come from and how did we get here? Discover the origins of life on this planet and how the species we know today have evolved.&nbsp;&nbsp;<span class="text-link">Learn more &#62;</span></p>
+        <div>
+          <img src="images/heart.jpg" alt="Plastic model of an anatomical heart.">
+        </div>
+        <h3>Biology and Medicine</h3>
+        <p>From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world.&nbsp;&nbsp;<span class="text-link">Learn more &#62;</span></p>
+        <div>
+          <img src="images/robot-hand.jpg" alt="A robots' open hand.">
+        </div>
+        <h3>Robotics and AI</h3>
+        <p>The information revolution is here and robotics and artificial intelligence are the science of the future.&nbsp;&nbsp;<span class="text-link">Learn more &#62;</span></p>
+      </section>
     </main>
     <footer>
-
+      <section class="copyright">&copy; Copyright 2021 Community Science Museum. All rights reserved.</section>
     </footer>
   </body>
 </html>

@@ -1,0 +1,11 @@
+.explore-section p, .exhibitions-section p {
+    font-size: 0.8em;
+}
+
+.explore-section p {
+    padding: 20px;
+}
+
+.exhibitions-section {
+    background-color: rgba(68,68,68,0.85);
+}
