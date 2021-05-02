@@ -18,17 +18,72 @@ body {
 h1,
 h2,
 h3,
-nav {
+nav,
+.cta {
   font-family: "Catamaran", "Trebuchet MS", sans-serif;
   font-weight: 700;
 }
 
+h2 {
+  font-size: 1.3em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
 img {
-    width: 100%;
+  width: 100%;
+}
+
+.body-text {
+  font-size: 0.75em;
+  line-height: 1.5em;
 }
 
 header {
     border-bottom: #dddddd 2px solid;
+}
+
+.logo img {
+  width: 135px;
+  height: auto;
+}
+
+.logo-and-hamburger {
+  padding: 15px 25px;
+}
+
+.logo-and-hamburger,
+.heading-and-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading-and-cta {
+  padding: 10px 25px;
+}
+
+.heading-and-cta h1 {
+  margin: 8px 0px;
+}
+
+.cta {
+  border: 2px solid #eb2c32;
+  padding: 0px 10px 28px 10px;
+  max-height: 12px;
+  max-width: 100px;
+  text-align: center;
+}
+
+.cta__arrow {
+  font-size: 1.4em;
+}
+
+.cta:hover {
+  border: 2px dashed #eb2c32;
+  color: #eb2c32;
 }
 
 #close,
@@ -75,8 +130,22 @@ nav {
     display: block;
   }
 
-  footer {
+  footer,
+  .copyright {
       border-top: 2px solid #dddddd;
+  }
+
+  .footer__heading {
+    color:#eb2c32;
+    font-weight: 700;
+  }
+
+  footer p {
+    font-size: 0.7em;
+  }
+
+  .social-media-icon {
+    font-size: 1.8em;
   }
 
   .copyright {
