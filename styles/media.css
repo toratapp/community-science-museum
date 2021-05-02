@@ -1,3 +1,16 @@
+@media (min-width: 500px) {
+
+    nav {
+        left: auto;
+        right: 0;
+        width: 400px;
+    }
+
+    .footer__social-media-section {
+        width: 40%;
+    }
+}
+
 @media (min-width: 800px) {
 
     .main-image-smaller-screens {
@@ -9,34 +22,118 @@
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 2.6em;
     }
     
     h2 {
-        font-size: 1.3em;
+        font-size: 2.3em;
     }
     
     h3 {
-        font-size: 1.2em;
+        font-size: 2.1em;
     }
 
     .body-text {
-        font-size: 1.25em;
-        line-height: 2em;
+        font-size: 1.3em;
+        line-height: 1.4em;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .logo-and-hamburger {
+        padding: 50px 25px 30px 25px;
+    }
+
+    nav {
+        top: 145px;
+    }
+
+    .nav__close-icon {
+        top: 162px;
+      }
+
+    .cta {
+        border: 4px solid #eb2c32;
+        padding: 0px 25px 50px 25px;
+        max-height: 30px;
+        max-width: 200px;
+        font-size: 2em;
+      }
+      
+    .cta__arrow {
+        font-size: 1.5em;
+    }
+    
+    .cta:hover {
+        border: 4px dashed #eb2c32;
+    }
+
+    .heading-and-cta {
+        padding: 35px 25px 5px 25px;
+    }
+
+    .explore-section p {
+        padding: 10px 25px 25px 25px;
     }
 
     .exhibitions-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 40px;
-    }
-
-    .exhibitions-wrapper > * {
-        flex: 1;
+        gap: 0px 120px;
     }
 
     .exhibitions-section__heading {
         grid-column: -1/1;
     }
 
+    .exhibitions-section p {
+        padding: 0px 0px 60px 0px;
+    }
+
+    .exhibitions-section {
+        padding: 12px 25px 40px 25px;
+    }
+
+    .footer__main-section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 20px auto 20px auto;
+    }
+
+    footer p {
+        font-size: 1.3em;
+        padding: 4px 0px;
+        margin: 0px;
+    }
+
+    .address-and-tel i {
+        font-size: 1.5em;
+        margin-top: 7px;
+    }
+
+    .footer__social-media-section {
+        width: 80%;
+      }
+
+    .social-media-icon {
+        font-size: 3.8em;
+        padding-bottom: 0px;
+    }
+
+    .copyright {
+        font-size: 1.1em;
+        padding: 25px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .footer__social-media-section {
+        width: 60%;
+      }
+
+    .social-media-icon {
+        font-size: 3.8em;
+        padding-bottom: 15px;
+    }
 }

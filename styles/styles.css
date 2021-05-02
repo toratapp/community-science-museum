@@ -7,7 +7,6 @@ body {
   color: #fff;
   margin: 0;
   background-color: #000;
-  position: relative;
   background: url("../images/background.png") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -64,6 +63,7 @@ header {
 
 .logo-and-hamburger {
   padding: 15px 25px;
+  position: relative;
 }
 
 .logo-and-hamburger,
@@ -71,14 +71,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.heading-and-cta {
-  padding: 10px 25px;
-}
-
-.heading-and-cta h1 {
-  margin: 8px 0px;
 }
 
 .cta {
@@ -256,6 +248,7 @@ footer p {
 
 .social-media-icon {
   font-size: 1.8em;
+  padding-bottom: 15px;
 }
 
 .copyright {
