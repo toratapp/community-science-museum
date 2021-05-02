@@ -1,0 +1,42 @@
+@media (min-width: 800px) {
+
+    .main-image-smaller-screens {
+        display: none;
+    }
+
+    .main-image-larger-screens {
+        display: block;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+    
+    h2 {
+        font-size: 1.3em;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+    }
+
+    .body-text {
+        font-size: 1.25em;
+        line-height: 2em;
+    }
+
+    .exhibitions-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .exhibitions-wrapper > * {
+        flex: 1;
+    }
+
+    .exhibitions-section__heading {
+        grid-column: -1/1;
+    }
+
+}

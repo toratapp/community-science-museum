@@ -15,6 +15,18 @@ body {
   background-size: cover;
 }
 
+.max-width-1500 {
+  max-width: 1500px;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -24,16 +36,16 @@ nav,
   font-weight: 700;
 }
 
+h1 {
+  font-size: 1.5em;
+}
+
 h2 {
   font-size: 1.3em;
 }
 
 h3 {
   font-size: 1.2em;
-}
-
-img {
-  width: 100%;
 }
 
 .body-text {
@@ -199,6 +211,14 @@ nav {
 
 #hamburger-menu:checked ~ nav {
   display: block;
+}
+
+.main-image-smaller-screens {
+  display: block;
+}
+
+.main-image-larger-screens {
+  display: none;
 }
 
 footer,
