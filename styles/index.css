@@ -1,3 +1,7 @@
+.explore-section {
+    z-index: 100;
+}
+
 .explore-section p {
     padding: 3px 25px;
     margin: 0px;
