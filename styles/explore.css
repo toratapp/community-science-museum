@@ -1,0 +1,37 @@
+.explore__intro-section {
+    margin-bottom: 20px;
+}
+
+.explore__intro-section h1,
+.explore__intro-section p,
+.for-kids-section h2,
+.for-kids-section p {
+    margin: 0px;
+}
+
+
+.explore__intro-section h1 {
+    padding: 28px 25px 20px 25px;
+}
+
+.explore__intro-section p {
+    padding: 0px 25px 5px 25px;
+}
+
+.for-kids-section {
+    padding: 0px 25px;
+}
+
+.for-kids-section img {
+    margin: 20px 0px 4px 0px;
+}
+
+.explore__second-paragraph {
+    margin: 20px 0px 0px 0px !important;
+}
+
+.for-kids-section .image-text {
+    margin-bottom: 20px;
+}
+
+

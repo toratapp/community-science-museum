@@ -52,6 +52,11 @@ h3 {
   line-height: 1.5em;
 }
 
+.image-text {
+  font-size: 0.62em;
+  font-style: italic;
+}
+
 header {
   border-bottom: #dddddd 2px solid;
 }

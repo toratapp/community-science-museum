@@ -3,37 +3,101 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Join us at the Community Science Museum where we're committed to making science accessible to all. There's plenty to see and do." />
-    <title>Community Science Museum - Explore together!</title>
+    <meta name="description" content="Learn about our possibilities for kids, teachers and researchers." />
+    <title>Explore - Community Science Museum</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
     <link href="styles/styles.css" rel="stylesheet" />
-    <link href="styles/index.css" rel="stylesheet" />
+    <link href="styles/explore.css" rel="stylesheet" />
     <link href="styles/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/aa39e8c744.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
-      <input type="checkbox" id="hamburger-menu" />
-      <nav>
-        <ul id="nav__links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="explore.html">Explore</a></li>
-          <li><a href="#">Exhibitions</a></li>
-          <li><a href="visit.html">Visit</a></li>
-          <li><a href="#">About the museum</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Get involved</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="logo-and-hamburger max-width-1500 margin-auto">
+        <div>
+          <a href="index.html" class="logo"><img src="images/logo-white.svg" alt="Community Science Museum logo" /></a>
+        </div>
+        <label for="hamburger-menu"><i class="fas fa-bars hamburger-icon"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <label for="close"><i class="fas fa-times nav__close-icon"></i></label>
+          <input type="checkbox" id="close" />
+          <ul>
+            <li><a href="index.html" class="nav__link-1">Home</a></li>
+            <li><a href="explore.html" class="nav__link-2">Explore</a></li>
+            <li><a href="#" class="nav__link-3">Exhibitions</a></li>
+            <li><a href="visit.html" class="nav__link-4">Visit</a></li>
+            <li><a href="#" class="nav__link-5">About the museum</a></li>
+            <li><a href="#" class="nav__link-6">News</a></li>
+            <li><a href="#" class="nav__link-7">Get involved</a></li>
+            <li><a href="contact.html" class="nav__link-8">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
-
+      <section class="explore__intro-section max-width-1500 margin-auto">
+        <div>
+          <img src="images/vr-person.jpg" alt="Young person wearing VR glasses. The image has a red color filter." class="main-image-smaller-screens">
+          <img src="images/vr-person-larger-screens.jpg" alt="Young person wearing VR glasses. The image has a red color filter." class="main-image-larger-screens">
+        </div>
+        <h1>Explore</h1>
+        <p class="body-text">For kids&nbsp;&nbsp;<a href="#" class="text-link">Click here &#62;</a></p>
+        <p class="body-text">For teachers&nbsp;&nbsp;<a href="#" class="text-link">Click here &#62;</a></p>
+        <p class="body-text">For researchers&nbsp;&nbsp;<a href="#" class="text-link">Click here &#62;</a></p>
+      </section>
+      <section class="for-kids-section max-width-1500 margin-auto">
+        <h2>For kids</h2>
+        <p class="body-text">Are you a young person looking to learn more about science? Come on down to our museum, there’s plenty to see and do.</p>
+        <p class="body-text explore__second-paragraph">You can learn about Newtonian physics from our bumper swing, or why not travel back in time and meet our resident Woolly Mammoth? Our exhibits are designed to be accessible for interested minds, so make sure you come ready to learn and explore.</p>
+        <div>
+          <img src="images/hall-with-mammoth.jpg" alt="Museum hall with a wooly mammoth on a podium." />
+        </div>
+        <p class="image-text">Our resident Wolly Mammoth.</p>
+        <p class="body-text">We also have the Young Stars club which meets once a week on a Saturday between 10:00 and 13:00 where you’ll get to explore and experiment with our team of experts.</p>
+        <p class="body-text explore__second-paragraph">During the school holidays we run special holiday clubs where you can join other children your age to go on a journey of discovery. Each holiday we pick a new theme to explore. To find out more about the holiday club and how you can join, send us a message.</p>
+      </section>
     </main>
     <footer>
-
+      <section class="footer__main-section max-width-1500">
+        <div>
+          <p class="footer__heading">Short menu</p>
+          <p>About the museum</p>
+          <p><a href="visit.html">Visit</a></p>
+          <p><a href="contact.html">Contact</a></p>
+          <p>Exhibitions</p>
+          <p>News</p>
+          <p>Get involved</p>
+        </div>
+        <div class="address-and-tel">
+          <p class="footer__heading">Address and tel</p>
+          <i class="fas fa-home"></i>
+          <p>Nycoveien 2</p>
+          <p>0485 Oslo</p>
+          <p>Norway</p>
+          <i class="fas fa-mobile-alt"></i>
+          <p>&#43;47 930 01 227</p>
+        </div>
+        <div>
+          <p class="footer__heading">Service centre</p>
+          <p>Press</p>
+          <p>Logo and profile</p>
+          <p>Document archive</p>
+          <p>Privacy</p>
+        </div>
+        <div class="footer__social-media-section">
+          <p class="footer__heading footer__social-media-heading">Social media</p>
+          <i class="fab fa-instagram social-media-icon"></i>
+          <i class="fab fa-facebook-square social-media-icon"></i>
+          <i class="fab fa-youtube-square social-media-icon"></i>
+          <i class="fab fa-twitter-square social-media-icon"></i>
+        </div>
+      </section>
+      <section class="copyright">
+        &copy; Copyright 2021 Community Science Museum. All rights reserved.
+      </section>
     </footer>
   </body>
 </html>
