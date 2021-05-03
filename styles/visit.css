@@ -1,18 +1,50 @@
 .visit__address-section p,
-.visit__address-section h2 {
+.visit__address-section h2,
+.visit__admission-section p,
+.visit__admission-section h2,
+.visit__opening-hours-section p,
+.visit__opening-hours-section h2 {
     margin: 0px;
 }
 
-.visit__address-section {
+.visit__address-section,
+.visit__admission-section,
+.visit__opening-hours-section {
     display: flex;
     padding: 0px 25px;
+}
+
+.visit__address-section {
     gap: 20px;
+}
+
+.visit__address-section .visit__icon {
+    margin-top: 8px;
 }
 
 .visit__icon {
     font-size: 2em;
+    color: #eb2c32;
+}
+
+.visit__admission-section,
+.visit__opening-hours-section {
+    margin: 40px 0px;
+}
+
+.visit__admission-section {
+    gap: 16px;
+}
+
+.visit__admission-section img {
+    width: 40px;
+    margin-top: 8px;
 }
 
 .visit__second-paragraph {
     margin: 20px 0px 0px 0px !important;
+}
+
+.visit__opening-hours-section {
+    gap: 24px;
 }
