@@ -1,0 +1,18 @@
+.visit__address-section p,
+.visit__address-section h2 {
+    margin: 0px;
+}
+
+.visit__address-section {
+    display: flex;
+    padding: 0px 25px;
+    gap: 20px;
+}
+
+.visit__icon {
+    font-size: 2em;
+}
+
+.visit__second-paragraph {
+    margin: 20px 0px 0px 0px !important;
+}
