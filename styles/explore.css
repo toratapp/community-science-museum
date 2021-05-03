@@ -5,7 +5,11 @@
 .explore__intro-section h1,
 .explore__intro-section p,
 .for-kids-section h2,
-.for-kids-section p {
+.for-kids-section p,
+.for-teachers-section h2,
+.for-teachers-section p,
+.for-researchers-section h2,
+.for-researchers-section p {
     margin: 0px;
 }
 
@@ -34,4 +38,12 @@
     margin-bottom: 20px;
 }
 
+.for-teachers-section {
+    margin-top: 35px;
+    padding: 25px 25px 25px 25px;
+    background-color: rgba(68,68,68,0.85);
+}
 
+.for-researchers-section {
+    padding: 30px 25px 60px 25px;
+}
