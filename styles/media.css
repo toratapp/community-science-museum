@@ -137,3 +137,9 @@
         padding-bottom: 15px;
     }
 }
+
+@media (min-width: 1500px) {
+    .logo-and-hamburger {
+        width: 1500px !important;
+    }
+}
