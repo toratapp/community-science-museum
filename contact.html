@@ -3,37 +3,151 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Join us at the Community Science Museum where we're committed to making science accessible to all. There's plenty to see and do." />
-    <title>Community Science Museum - Explore together!</title>
+    <meta name="description" content="Learn about our possibilities for kids, teachers and researchers." />
+    <title>Explore - Community Science Museum</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
     <link href="styles/styles.css" rel="stylesheet" />
-    <link href="styles/index.css" rel="stylesheet" />
+    <link href="styles/visit.css" rel="stylesheet" />
     <link href="styles/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/aa39e8c744.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
-      <input type="checkbox" id="hamburger-menu" />
-      <nav>
-        <ul id="nav__links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="explore.html">Explore</a></li>
-          <li><a href="#">Exhibitions</a></li>
-          <li><a href="visit.html">Visit</a></li>
-          <li><a href="#">About the museum</a></li>
-          <li><a href="#">News</a></li>
-          <li><a href="#">Get involved</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <div class="logo-and-hamburger max-width-1500 margin-auto">
+        <div>
+          <a href="index.html" class="logo"><img src="images/logo-white.svg" alt="Community Science Museum logo" /></a>
+        </div>
+        <label for="hamburger-menu"><i class="fas fa-bars hamburger-icon"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav>
+          <label for="close"><i class="fas fa-times nav__close-icon"></i></label>
+          <input type="checkbox" id="close" />
+          <ul>
+            <li><a href="index.html" class="nav__link-1">Home</a></li>
+            <li><a href="explore.html" class="nav__link-2">Explore</a></li>
+            <li><a href="#" class="nav__link-3">Exhibitions</a></li>
+            <li><a href="visit.html" class="nav__link-4">Visit</a></li>
+            <li><a href="#" class="nav__link-5">About the museum</a></li>
+            <li><a href="#" class="nav__link-6">News</a></li>
+            <li><a href="#" class="nav__link-7">Get involved</a></li>
+            <li><a href="contact.html" class="nav__link-8">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-
+    <main class="max-width-1500 margin-auto">
+      <section class="visit__intro-section">
+        <div>
+          <img src="images/exhibition.jpg" alt="Museum hall with a space exhibition. Blue rocket ship, pink fantasy animal statue on wheels, large mirror ball hanging from roof, pictures of robots on the wall." class="main-image-smaller-screens" />
+          <img src="images/exhibition-larger-screens.jpg" alt="Museum hall with a space exhibition. Blue rocket ship, pink fantasy animal statue on wheels, large mirror ball hanging from roof, pictures of robots on the wall." class="main-image-larger-screens" />
+        </div>
+        <h1 class="visit__h1">Visit</h1>
+      </section>
+      <section class="visit__address-section">
+        <i class="fas fa-home visit__icon"></i>
+        <div>
+          <h2>Our address</h2>
+          <p class="body-text">Nycoveien 2</p>
+          <p class="body-text">0485 Oslo</p>
+          <p class="body-text">Norway</p>
+          <p class="body-text"><a href="#" class="text-link">View on Google maps &#62;</a></p>
+        </div>
+      </section>
+      <section class="visit__admission-section">
+        <div>
+          <img src="icons/telescope.svg" alt="Telescope icon" />
+        </div>
+        <div>
+          <h2>Admission</h2>
+          <p class="body-text">The entrance is free for all</p>
+          <p class="body-text visit__second-paragraph">There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.</p>
+          <p class="body-text visit__second-paragraph">If you would like to organise a guided tour for your group of 6 or more people, please&nbsp;&nbsp;<a href="#" class="text-link">contact us &#62;</a>&nbsp;&nbsp;to arrange the tour.</p>
+        </div>
+      </section>
+      <section class="visit__opening-hours-section">
+        <i class="far fa-clock visit__icon"></i>
+        <div>
+          <h2>Opening hours</h2>
+          <p class="body-text">Monday: Closed</p>
+          <p class="body-text">Tuesday: 10:00 – 16:00</p>
+          <p class="body-text">Wednesday: 10:00 – 16:00</p>
+          <p class="body-text">Thursday: 10:00 – 16:00</p>
+          <p class="body-text">Friday: 10:00 – 19:00</p>
+          <p class="body-text">Saturday: 9:00 – 16:00</p>
+          <p class="body-text">Sunday: 9:00 – 13:00</p>
+        </div>
+      </section>
+      <section class="visit__accessibility-section">
+        <div>
+          <img src="icons/atom.svg" alt="Atom icon" />
+        </div>
+        <div>
+          <h2>Accessibility</h2>
+          <p class="body-text">The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
+        </div>
+      </section>
+      <section class="visit__food-section">
+        <div>
+          <img src="icons/sprout.svg" alt="Sprout icon" />
+        </div>
+        <div>
+          <h2>Food and drink</h2>
+          <p class="body-text">There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
+        </div>
+      </section>
+      <section class="visit__shop-section">
+        <div>
+          <img src="icons/globe.svg" alt="Globe icon" />
+        </div>
+        <div>
+          <h2>Shop</h2>
+          <p class="body-text">Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
+        </div>
+      </section>
+      <div class="visit__node-image">
+        <img src="images/nodes.jpg" alt="Nodes in front of a cloudy sky">
+      </div>
     </main>
     <footer>
-
+      <section class="footer__main-section max-width-1500">
+        <div>
+          <p class="footer__heading">Short menu</p>
+          <p><a href="#">About the museum</a></p>
+          <p><a href="visit.html">Visit</a></p>
+          <p><a href="contact.html">Contact</a></p>
+          <p><a href="#">Exhibitions</a></p>
+          <p><a href="#">News</a></p>
+          <p><a href="#">Get involved</a></p>
+        </div>
+        <div class="address-and-tel">
+          <p class="footer__heading">Address and tel</p>
+          <i class="fas fa-home"></i>
+          <p>Nycoveien 2</p>
+          <p>0485 Oslo</p>
+          <p>Norway</p>
+          <i class="fas fa-mobile-alt"></i>
+          <p>&#43;47 930 01 227</p>
+        </div>
+        <div>
+          <p class="footer__heading">Service centre</p>
+          <p><a href="#">Press</a></p>
+          <p><a href="#">Logo and profile</a></p>
+          <p><a href="#">Document archive</a></p>
+          <p><a href="#">Privacy</a></p>
+        </div>
+        <div class="footer__social-media-section">
+          <p class="footer__heading footer__social-media-heading">Social media</p>
+          <i class="fab fa-instagram social-media-icon"></i>
+          <i class="fab fa-facebook-square social-media-icon"></i>
+          <i class="fab fa-youtube-square social-media-icon"></i>
+          <i class="fab fa-twitter-square social-media-icon"></i>
+        </div>
+      </section>
+      <section class="copyright">
+        &copy; Copyright 2021 Community Science Museum. All rights reserved.
+      </section>
     </footer>
   </body>
 </html>

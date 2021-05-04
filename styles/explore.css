@@ -40,8 +40,12 @@
 
 .for-teachers-section {
     margin-top: 35px;
-    padding: 25px 25px 25px 25px;
+    padding: 25px 25px 35px 25px;
     background-color: rgba(68,68,68,0.85);
+}
+
+.for-teachers-section img {
+    margin-top: 25px;
 }
 
 .for-researchers-section {

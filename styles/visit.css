@@ -1,20 +1,36 @@
+.visit__h1,
 .visit__address-section p,
 .visit__address-section h2,
 .visit__admission-section p,
 .visit__admission-section h2,
 .visit__opening-hours-section p,
-.visit__opening-hours-section h2 {
+.visit__opening-hours-section h2,
+.visit__accessibility-section p,
+.visit__accessibility-section h2,
+.visit__food-section p,
+.visit__food-section h2,
+.visit__shop-section p,
+.visit__shop-section h2 {
     margin: 0px;
+}
+
+.visit__h1 {
+    padding: 28px 25px 20px 25px;
 }
 
 .visit__address-section,
 .visit__admission-section,
-.visit__opening-hours-section {
+.visit__opening-hours-section,
+.visit__accessibility-section,
+.visit__food-section,
+.visit__shop-section {
     display: flex;
     padding: 0px 25px;
 }
 
-.visit__address-section {
+.visit__address-section,
+.visit__food-section,
+.visit__shop-section {
     gap: 20px;
 }
 
@@ -28,15 +44,20 @@
 }
 
 .visit__admission-section,
-.visit__opening-hours-section {
+.visit__opening-hours-section,
+.visit__accessibility-section,
+.visit__food-section,
+.visit__shop-section {
     margin: 40px 0px;
 }
 
-.visit__admission-section {
+.visit__admission-section,
+.visit__accessibility-section {
     gap: 16px;
 }
 
-.visit__admission-section img {
+.visit__admission-section img,
+.visit__accessibility-section img {
     width: 40px;
     margin-top: 8px;
 }
@@ -47,4 +68,20 @@
 
 .visit__opening-hours-section {
     gap: 24px;
+}
+
+.visit__opening-hours-section .visit__icon {
+    margin-top: 7px;
+}
+
+.visit__food-section img,
+.visit__shop-section img {
+    width: 32px;
+    margin-top: 8px;
+    margin-left: 6px;
+}
+
+.visit__node-image {
+    padding: 0px 25px;
+    margin-bottom: 50px;
 }
