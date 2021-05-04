@@ -101,9 +101,9 @@ header {
 }
 
 .nav__close-icon {
-  position: fixed;
+  position: absolute;
   right: 26px;
-  top: 90px;
+  top: 20px;
   font-size: 1.8em;
 }
 
@@ -115,9 +115,9 @@ ul {
 
 nav {
   display: none;
-  position: fixed;
+  position: absolute;
   top: 76px;
-  left: 0;
+  right: 0;
   background-color: #444444;
   z-index: 1000;
   width: 100%;
