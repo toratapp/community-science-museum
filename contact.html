@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Learn about our possibilities for kids, teachers and researchers." />
-    <title>Explore - Community Science Museum</title>
+    <meta name="description" content="Send us a message or give us a call. Here is the contact information for Community Science Museum." />
+    <title>Contact - Community Science Museum</title>
     <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
     <link href="styles/styles.css" rel="stylesheet" />
-    <link href="styles/visit.css" rel="stylesheet" />
+    <link href="styles/contact.css" rel="stylesheet" />
     <link href="styles/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/aa39e8c744.js" crossorigin="anonymous"></script>
   </head>
@@ -38,38 +38,47 @@
       </div>
     </header>
     <main class="max-width-1500 margin-auto">
-      <section class="visit__intro-section">
+      <section class="contact__intro-section">
         <div>
-          <img src="images/exhibition.jpg" alt="Museum hall with a space exhibition. Blue rocket ship, pink fantasy animal statue on wheels, large mirror ball hanging from roof, pictures of robots on the wall." class="main-image-smaller-screens" />
-          <img src="images/exhibition-larger-screens.jpg" alt="Museum hall with a space exhibition. Blue rocket ship, pink fantasy animal statue on wheels, large mirror ball hanging from roof, pictures of robots on the wall." class="main-image-larger-screens" />
+          <img src="images/robot-hand.jpg" alt="A robots' open hand." class="main-image-smaller-screens" />
+          <img src="images/robot-hand-larger-screens.jpg" alt="A robots' open hand." class="main-image-larger-screens" />
         </div>
-        <h1 class="visit__h1">Visit</h1>
+        <h1 class="contact__h1">Contact</h1>
       </section>
-      <section class="visit__address-section">
-        <i class="fas fa-home visit__icon"></i>
+      <section class="contact__tel-section">
+        <i class="fas fa-mobile-alt"></i>
         <div>
-          <h2>Our address</h2>
-          <p class="body-text">Nycoveien 2</p>
-          <p class="body-text">0485 Oslo</p>
-          <p class="body-text">Norway</p>
-          <p class="body-text"><a href="#" class="text-link">View on Google maps &#62;</a></p>
+          <h2>You can call us at</h2>
+          <p class="body-text">+47 930 01 227</p>
         </div>
       </section>
-      <section class="visit__admission-section">
-        <div>
-          <img src="icons/telescope.svg" alt="Telescope icon" />
+      <section class="contact__write-us-section">
+        <div class="contact__envelope-and-heading">  
+          <i class="fas fa-envelope"></i>        
+          <h2>Write us a message here</h2>
         </div>
-        <div>
-          <h2>Admission</h2>
-          <p class="body-text">The entrance is free for all</p>
-          <p class="body-text visit__second-paragraph">There are guided tours of the museum that leave every hour. These tours are 70 NOK per person and include a handy printed guide of the museum.</p>
-          <p class="body-text visit__second-paragraph">If you would like to organise a guided tour for your group of 6 or more people, please&nbsp;&nbsp;<a href="#" class="text-link">contact us &#62;</a>&nbsp;&nbsp;to arrange the tour.</p>
-        </div>
+        <form method="get" class="contact__form">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea name="message" rows="7"></textarea>
+          </div>
+          <div id="contact__button">
+            <a href="thank-you.html">Send message <span class="contact__button__arrow">&#62;</span></a>
+          </div>
+        </form>
       </section>
-      <section class="visit__opening-hours-section">
-        <i class="far fa-clock visit__icon"></i>
+      <section class="contact__answering-hours-section">
+        <i class="far fa-clock"></i>
         <div>
-          <h2>Opening hours</h2>
+          <h2>Answering hours</h2>
           <p class="body-text">Monday: Closed</p>
           <p class="body-text">Tuesday: 10:00 – 16:00</p>
           <p class="body-text">Wednesday: 10:00 – 16:00</p>
@@ -77,38 +86,9 @@
           <p class="body-text">Friday: 10:00 – 19:00</p>
           <p class="body-text">Saturday: 9:00 – 16:00</p>
           <p class="body-text">Sunday: 9:00 – 13:00</p>
+          <p class="body-text contact__second-paragraph">We strive to respond to all emails within two business days.</p>
         </div>
       </section>
-      <section class="visit__accessibility-section">
-        <div>
-          <img src="icons/atom.svg" alt="Atom icon" />
-        </div>
-        <div>
-          <h2>Accessibility</h2>
-          <p class="body-text">The museum has wheelchair accessibility ramps. It also has audio guides and braille display signs for the visually impaired.</p>
-        </div>
-      </section>
-      <section class="visit__food-section">
-        <div>
-          <img src="icons/sprout.svg" alt="Sprout icon" />
-        </div>
-        <div>
-          <h2>Food and drink</h2>
-          <p class="body-text">There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and more.</p>
-        </div>
-      </section>
-      <section class="visit__shop-section">
-        <div>
-          <img src="icons/globe.svg" alt="Globe icon" />
-        </div>
-        <div>
-          <h2>Shop</h2>
-          <p class="body-text">Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow you to continue to explore science even after you’ve left the museum.</p>
-        </div>
-      </section>
-      <div class="visit__node-image">
-        <img src="images/nodes.jpg" alt="Nodes in front of a cloudy sky">
-      </div>
     </main>
     <footer>
       <section class="footer__main-section max-width-1500">

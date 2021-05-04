@@ -1,0 +1,108 @@
+.contact__h1,
+.contact__tel-section h2,
+.contact__tel-section p,
+.contact__write-us-section h2,
+.contact__write-us-section p,
+.contact__answering-hours-section h2,
+.contact__answering-hours-section p {
+    margin: 0px;
+}
+
+.contact__h1 {
+    padding: 28px 25px 20px 25px;
+}
+
+.contact__tel-section,
+.contact__write-us-section,
+.contact__answering-hours-section {
+    padding: 0px 25px;
+}
+
+.contact__tel-section,
+.contact__envelope-and-heading,
+.contact__answering-hours-section {
+    display: flex;
+    gap: 22px;
+}
+
+.contact__tel-section i,
+.contact__envelope-and-heading i,
+.contact__answering-hours-section i {
+    font-size: 2em;
+    color: #eb2c32;
+}
+
+.contact__envelope-and-heading {
+    margin-top: 40px;
+}
+
+.contact__tel-section i {
+    margin: 0px 5px;
+}
+
+.contact__second-paragraph {
+    margin: 20px 0px 0px 0px !important;
+}
+
+form label {
+    display: block;
+    padding: 5px 0px;
+    margin-top: 10px;
+}
+
+form label,
+form input,
+form textarea {
+    font-family: "Merriweather Sans", "Trebuchet MS", sans-serif;
+    font-weight: 400;
+    font-size: 0.75em;
+}
+
+form label,
+form input {
+    width: 92%;
+}
+
+form textarea {
+    width: 97%;
+    margin-bottom: 20px;
+}
+
+form input {
+    display: block;
+    padding: 10px;
+}
+
+form input,
+form textarea {
+    border-radius: 8px;
+    border: 3px solid #25a7bb;
+}
+
+#contact__button {
+    font-family: "Catamaran", "Trebuchet MS", sans-serif;
+    font-weight: 700;
+    border: 2px solid #eb2c32;
+    padding: 0px 10px 23px 10px;
+    max-height: 12px;
+    max-width: 115px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact__button__arrow {
+    font-size: 1.2em;
+}
+
+#contact__button:hover {
+    border: 2px dashed #eb2c32;
+    color: #eb2c32 !important;
+}
+
+.contact__answering-hours-section i {
+    margin-top: 7px;
+}
+
+.contact__answering-hours-section {
+    margin-bottom: 60px;
+}
