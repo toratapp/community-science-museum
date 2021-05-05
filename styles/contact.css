@@ -36,8 +36,12 @@
     margin-top: 40px;
 }
 
+.contact__envelope-and-heading i {
+    margin-top: 2px;
+}
+
 .contact__tel-section i {
-    margin: 0px 5px;
+    margin: 9px 5px 0px 5px;
 }
 
 .contact__second-paragraph {

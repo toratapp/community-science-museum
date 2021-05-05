@@ -6,8 +6,8 @@
 .explore__intro-section p,
 .for-kids-section h2,
 .for-kids-section p,
-.for-teachers-section h2,
-.for-teachers-section p,
+.for-teachers-wrapper h2,
+.for-teachers-wrapper p,
 .for-researchers-section h2,
 .for-researchers-section p {
     margin: 0px;
@@ -39,15 +39,22 @@
 }
 
 .for-teachers-section {
-    margin-top: 35px;
-    padding: 25px 25px 35px 25px;
     background-color: rgba(68,68,68,0.85);
 }
 
-.for-teachers-section img {
+.for-teachers-wrapper {
+    margin-top: 35px;
+    padding: 25px 25px 35px 25px;
+}
+
+.for-teachers-wrapper img {
     margin-top: 25px;
 }
 
 .for-researchers-section {
     padding: 30px 25px 60px 25px;
+}
+
+.for-researchers__image {
+    display: none;
 }
