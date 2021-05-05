@@ -10,7 +10,6 @@
 }
 
 @media (min-width: 800px) {
-
     .main-image-smaller-screens {
         display: none;
     }
@@ -128,7 +127,8 @@
         margin-bottom: 45px;
     }
 
-    .explore__intro-section h1 {
+    .explore__intro-section h1,
+    .visit__h1 {
         padding: 35px 25px 25px 25px;
     }
 
@@ -153,6 +153,41 @@
         padding: 40px 25px 70px 25px;
     }
 
+    .visit__icon {
+        font-size: 3.5em;
+    }
+
+    .visit__admission-section img,
+    .visit__accessibility-section img {
+        width: 62px;
+        margin-top: 14px;
+    }
+
+    .visit__food-section img,
+    .visit__shop-section img {
+        width: 50px;
+        margin-top: 14px;
+        margin-left: 6px;
+    }
+
+    .visit__address-section,
+    .visit__food-section,
+    .visit__shop-section {
+        gap: 40px;
+    }
+
+    .visit__admission-section,
+    .visit__accessibility-section {
+        gap: 36px;
+    }
+
+    .visit__opening-hours-section {
+        gap: 44px;
+    }
+
+    .visit__node-image {
+        margin: 70px 0px 70px 0px;
+    }
 }
 
 @media (min-width: 1100px) {
@@ -201,6 +236,37 @@
     .for-researchers-section {
         padding: 70px 25px 70px 25px;
     }
+
+    .address-and-admission-wrapper,
+    .opening-and-accessibility-wrapper,
+    .food-and-shop-wrapper {
+        display: flex;
+        gap: 40px;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .address-and-admission-wrapper > *,
+    .opening-and-accessibility-wrapper > *,
+    .food-and-shop-wrapper > * {
+        flex: 1;
+    }
+
+    .visit__admission-section,
+    .visit__opening-hours-section,
+    .visit__accessibility-section,
+    .visit__food-section,
+    .visit__shop-section {
+        margin: 0px;
+    }
+
+    .opening-and-accessibility-wrapper {
+        margin: 70px 0px;
+    }
+
+    .visit__node-image {
+        margin: 90px 0px 70px 0px;
+    }
 }
 
 @media (min-width: 1540px) {
@@ -213,5 +279,19 @@
     .for-teachers-wrapper,
     .for-researchers-section {
         gap: 50px;
+    }
+
+    .address-and-admission-wrapper,
+    .opening-and-accessibility-wrapper,
+    .food-and-shop-wrapper {
+        gap: 80px;
+    }
+
+    .opening-and-accessibility-wrapper {
+        margin: 100px 0px;
+    }
+
+    .visit__node-image {
+        margin: 100px 0px 70px 0px;
     }
 }
