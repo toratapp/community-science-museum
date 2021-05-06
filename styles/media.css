@@ -10,6 +10,14 @@
 }
 
 @media (min-width: 800px) {
+    body {
+        background: url("../images/background.png") no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
     .main-image-smaller-screens {
         display: none;
     }

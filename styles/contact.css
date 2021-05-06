@@ -14,7 +14,8 @@
 
 .contact__tel-section,
 .contact__write-us-section,
-.contact__answering-hours-section {
+.contact__answering-hours-section,
+.contact__thank-you-message {
     padding: 0px 25px;
 }
 
@@ -119,4 +120,8 @@ form textarea {
 }
 .contact__answering-hours-section {
     grid-area: contact__hours;
+}
+
+.contact__thank-you-message {
+    margin-bottom: 70px;
 }
