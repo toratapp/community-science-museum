@@ -45,50 +45,52 @@
         </div>
         <h1 class="contact__h1">Contact</h1>
       </section>
-      <section class="contact__tel-section">
-        <i class="fas fa-mobile-alt"></i>
-        <div>
-          <h2>You can call us at</h2>
-          <p class="body-text">+47 930 01 227</p>
-        </div>
-      </section>
-      <section class="contact__write-us-section">
-        <div class="contact__envelope-and-heading">  
-          <i class="fas fa-envelope"></i>        
-          <h2>Write us a message here</h2>
-        </div>
-        <form method="get" class="contact__form">
+      <div class="contact-grid-wrapper">
+        <section class="contact__tel-section">
+          <i class="fas fa-mobile-alt"></i>
           <div>
-            <label for="name">Name:</label>
-            <input type="text" name="name" id="name" required>
+            <h2>You can call us at</h2>
+            <p class="body-text">+47 930 01 227</p>
           </div>
+        </section>
+        <section class="contact__write-us-section">
+          <div class="contact__envelope-and-heading">  
+            <i class="fas fa-envelope"></i>        
+            <h2>Write us a message here</h2>
+          </div>
+          <form method="get" class="contact__form">
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" name="email" required>
+            </div>
+            <div>
+              <label for="message">Message:</label>
+              <textarea name="message" rows="7"></textarea>
+            </div>
+            <div id="contact__button">
+              <a href="thank-you.html">Send message <span class="contact__button__arrow">&#62;</span></a>
+            </div>
+          </form>
+        </section>
+        <section class="contact__answering-hours-section">
+          <i class="far fa-clock"></i>
           <div>
-            <label for="email">Email:</label>
-            <input type="email" name="email" required>
+            <h2>Answering hours</h2>
+            <p class="body-text">Monday: Closed</p>
+            <p class="body-text">Tuesday: 10:00 – 16:00</p>
+            <p class="body-text">Wednesday: 10:00 – 16:00</p>
+            <p class="body-text">Thursday: 10:00 – 16:00</p>
+            <p class="body-text">Friday: 10:00 – 19:00</p>
+            <p class="body-text">Saturday: 9:00 – 16:00</p>
+            <p class="body-text">Sunday: 9:00 – 13:00</p>
+            <p class="body-text contact__second-paragraph">We strive to respond to all emails within two business days.</p>
           </div>
-          <div>
-            <label for="message">Message:</label>
-            <textarea name="message" rows="7"></textarea>
-          </div>
-          <div id="contact__button">
-            <a href="thank-you.html">Send message <span class="contact__button__arrow">&#62;</span></a>
-          </div>
-        </form>
-      </section>
-      <section class="contact__answering-hours-section">
-        <i class="far fa-clock"></i>
-        <div>
-          <h2>Answering hours</h2>
-          <p class="body-text">Monday: Closed</p>
-          <p class="body-text">Tuesday: 10:00 – 16:00</p>
-          <p class="body-text">Wednesday: 10:00 – 16:00</p>
-          <p class="body-text">Thursday: 10:00 – 16:00</p>
-          <p class="body-text">Friday: 10:00 – 19:00</p>
-          <p class="body-text">Saturday: 9:00 – 16:00</p>
-          <p class="body-text">Sunday: 9:00 – 13:00</p>
-          <p class="body-text contact__second-paragraph">We strive to respond to all emails within two business days.</p>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
     <footer>
       <section class="footer__main-section max-width-1500">

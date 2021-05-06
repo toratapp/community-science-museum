@@ -110,3 +110,13 @@ form textarea {
 .contact__answering-hours-section {
     margin-bottom: 60px;
 }
+
+.contact__tel-section {
+    grid-area: contact__tel;
+}
+.contact__write-us-section {
+    grid-area: contact__write;
+}
+.contact__answering-hours-section {
+    grid-area: contact__hours;
+}
