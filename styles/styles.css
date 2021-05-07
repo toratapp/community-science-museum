@@ -95,18 +95,6 @@ header {
   color: #eb2c32;
 }
 
-#close,
-#close:checked ~ nav {
-  display: none;
-}
-
-.nav__close-icon {
-  position: absolute;
-  right: 26px;
-  top: 20px;
-  font-size: 1.8em;
-}
-
 ul {
   margin: 20px 30px;
   padding: 0;
