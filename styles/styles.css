@@ -186,6 +186,10 @@ nav {
   color: rgba(255, 255, 255, 1);
 }
 
+.active-page {
+  color: #2AB9CF;
+}
+
 .hamburger-icon {
   font-size: 2em;
 }
