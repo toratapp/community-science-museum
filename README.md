@@ -2,7 +2,7 @@
 
 ![image](https://www.teidsvag.com/images/community-science-museum-home-web.jpg)
 
-A simple overview of the use/purpose of the project.
+Noroff school assignment: Front end development Semester Project 1. The assignment was to create a website for an interactive science museum.
 
 ## Description
 
