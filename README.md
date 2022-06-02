@@ -1,6 +1,6 @@
 # Community science museum
 
-![image](https://www.teidsvag.com/images/community-science-museum-home-web.jpg)
+![image](https://raw.githubusercontent.com/toratapp/teidsvag-portfolio/main/images/community-science-museum-home-web.jpg)
 
 Noroff school assignment: Front end development Semester Project 1. The assignment was to create a website for an interactive science museum.
 
