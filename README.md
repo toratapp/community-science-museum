@@ -1,4 +1,4 @@
-# Community science museum
+# Community science museum - website for a museum
 
 ![image](https://raw.githubusercontent.com/toratapp/teidsvag-portfolio/main/images/community-science-museum-home-web.jpg)
 
@@ -6,7 +6,7 @@ Noroff school assignment, Front-end development. The assignment was to create a 
 
 ## Description
 
-Community science museum is an interactive science museum with a target audience of primary- and middle school children. The goal was to make a website that was informative and engaging and also encouraged the viewers to visit the museum itself. I built the website with HTML and CSS.
+Community science museum is an interactive science museum with a target audience of primary- and middle school children. The goal was to make a website that was informative and engaging and also encouraged the viewers to visit the museum itself. I built the website with HTML and CSS. In this assignment I learned how to use CSS Grids and Flexbox.
 
 ## Built With
 
@@ -15,31 +15,10 @@ Community science museum is an interactive science museum with a target audience
 
 ## Getting Started
 
-### Installing
+### Installing and running
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+Clone the repo, open in Visual Studio Code and run with Live Server. You can also deploy with [Netlify](https://www.netlify.com/).
 
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
-
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
 
 ## Contributing
 
@@ -57,4 +36,6 @@ You can link to your license file here if you're using one, or mention what lice
 
 ## Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+- I used science icons created by pixelzstudio, found on: [Vecteezy](https://www.vecteezy.com/vectorart/
+628871-science-icon-set-vector).
+- Other icons by [Fontawesome](https://fontawesome.com/)
