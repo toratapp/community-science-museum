@@ -2,24 +2,16 @@
 
 ![image](https://raw.githubusercontent.com/toratapp/teidsvag-portfolio/main/images/community-science-museum-home-web.jpg)
 
-Noroff school assignment: Front end development Semester Project 1. The assignment was to create a website for an interactive science museum.
+Noroff school assignment, Front-end development. The assignment was to create a website for an interactive science museum.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+Community science museum is an interactive science museum with a target audience of primary- and middle school children. The goal was to make a website that was informative and engaging and also encouraged the viewers to visit the museum itself. I built the website with HTML and CSS.
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- HTML
+- CSS
 
 ## Getting Started
 
@@ -55,11 +47,9 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+You can contact me on my LinkedIn page.
 
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
+[My LinkedIn page](https://www.linkedin.com/in/toraoeidsvag)
 
 ## License
 
