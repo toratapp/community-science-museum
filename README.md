@@ -36,6 +36,5 @@ You can link to your license file here if you're using one, or mention what lice
 
 ## Acknowledgments
 
-- I used science icons created by pixelzstudio, found on: [Vecteezy](https://www.vecteezy.com/vectorart/
-628871-science-icon-set-vector).
+- I used science icons created by pixelzstudio, found on: [Vecteezy](https://www.vecteezy.com/vectorart/628871-science-icon-set-vector).
 - Other icons by [Fontawesome](https://fontawesome.com/)
