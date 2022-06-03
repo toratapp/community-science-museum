@@ -23,12 +23,12 @@ Clone the repo, open in Visual Studio Code and run with Live Server. You can als
 
 ## Contact
 
-You can contact me on my LinkedIn page.
+You can contact me on my LinkedIn page:
 
 [My LinkedIn page](https://www.linkedin.com/in/toraoeidsvag)
 
 
 ## Acknowledgments
 
-- I used science icons created by pixelzstudio, found on: [Vecteezy](https://www.vecteezy.com/vectorart/628871-science-icon-set-vector).
+- I used science icons created by pixelzstudio, found on: [Vecteezy](https://www.vecteezy.com/vectorart/628871-science-icon-set-vector)
 - Other icons by [Fontawesome](https://fontawesome.com/)
