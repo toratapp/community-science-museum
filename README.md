@@ -21,6 +21,11 @@ Community science museum is an interactive science museum with a target audience
 Clone the repo, open in Visual Studio Code and run with Live Server. You can also deploy with [Netlify](https://www.netlify.com/).
 
 
+## Deployed site
+
+[Community science museum](https://community-science-museum-tora.netlify.app)
+
+
 ## Contact
 
 You can contact me on my LinkedIn page:
