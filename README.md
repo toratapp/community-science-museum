@@ -7,7 +7,7 @@ Noroff school assignment, Front-end development. The assignment was to create a 
 
 ## Description
 
-Community science museum is an interactive science museum with a target audience of primary- and middle school children. The goal was to make a website that was informative and engaging and also encouraged the viewers to visit the museum itself. I built the website with HTML and CSS. In this assignment I learned how to use CSS Grids and Flexbox.
+Community science museum is an interactive science museum with a target audience of primary- and middle school children. The goal was to make a website that was informative and engaging and also encouraged the viewers to visit the museum itself. I built the website with HTML and CSS. I used CSS Grids and Flexbox to place my design elements where I wanted them.
 
 
 ## Built With
